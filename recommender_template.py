@@ -24,7 +24,7 @@ class Recommender():
         makes predictions of a rating for a user on a movie-user combo
         '''
 
-    def make_recs(self,):
+    def make_recs(self,_id, _id_type='movie',rec_num=5):
         '''
         INPUT:
         _id - either a user or movie id (int)
